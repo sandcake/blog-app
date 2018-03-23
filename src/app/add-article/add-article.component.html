@@ -1,0 +1,12 @@
+<div class="add-article-container">
+  <form #form="ngForm">
+    <input placeholder="Ueberschrit" name="ueberschrift" type="text" [(ngModel)]="article.ueberschrift" required>
+    <input placeholder="Author" name="autor" type="text" [(ngModel)]="article.autor" required>
+    <input placeholder="Date" name="date" type="date" [(ngModel)]="article.date" required>
+    <input placeholder="Anrisstext" name="anrisstext" type="text" [(ngModel)]="article.anrisstext" required>
+    <input placeholder="Artikeltext" name="artikeltext" type="text" [(ngModel)]="article.artikeltext" required>
+    <br/>
+    <button (click)="addClicked()" [disabled]="!form.form.valid">Add</button>
+  </form>
+</div>
+

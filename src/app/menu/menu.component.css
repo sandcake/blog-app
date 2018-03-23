@@ -1,0 +1,15 @@
+.menu-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  background-color: lightcyan;
+}
+
+.menu-button {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16pt;
+}
+
+.active {
+  background-color: deepskyblue;
+}

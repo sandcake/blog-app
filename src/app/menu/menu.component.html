@@ -1,0 +1,12 @@
+<div class="menu-container">
+  <button class="menu-button"
+    [ngClass]="{'active': getActive('list')}"
+    (click)="setActive('list')">
+    List
+  </button>
+  <button class="menu-button"
+    [ngClass]="{'active': getActive('add')}"
+    (click)="setActive('add')">
+    Add
+  </button>
+</div>

@@ -1,0 +1,29 @@
+.article-container {
+  border: 1px solid white;
+  display: flex;
+  cursor: pointer;
+}
+
+.article-container:hover {
+  border: 1px solid gray;
+}
+
+.article-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-image {
+  height: 100px;
+  width: 100px;
+}
+
+.article-name {
+  font-size: 14pt;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.article-author, .article-date {
+  font-style: italic
+}
